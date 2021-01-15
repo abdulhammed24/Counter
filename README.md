@@ -12,6 +12,7 @@ A simple javascript project with great functionality.
 
 * Just like the normal counter, with the increase, reset and decrease button.
 * Responsive on mobile phone, tablets , desktop and laptop screens.
+* Neumorphism effect.
 
 ## Technologies Used
 
