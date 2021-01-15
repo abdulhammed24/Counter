@@ -5,11 +5,12 @@ A simple javascript project with great functionality.
 ## Project Details
 
 **View My Project**: https://abdulhammed24.github.io/Counter/
+
 ![title](img/countr.png)
 
 ## Features
 
-* Just like the normal counter, with the increase,reset and decrease button.
+* Just like the normal counter, with the increase, reset and decrease button.
 * Responsive on mobile phone, tablets , desktop and laptop screens.
 
 ## Technologies Used
