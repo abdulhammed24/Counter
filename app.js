@@ -10,6 +10,11 @@ increase.addEventListener("click", function(e){
     if(actions.contains("increase")){
         count++
     }
+
+    if (count > 0) {
+        value.style.color = "green";
+    }
+
     value.textContent = count;
 })
 
@@ -18,6 +23,11 @@ decrease.addEventListener("click", function (e) {
     if (actions.contains("decrease")) {
         count--
     }
+
+    if (count < 0) {
+        value.style.color = "red";
+    }
+
     value.textContent = count;
 })
 
@@ -26,5 +36,12 @@ reset.addEventListener("click", function (e) {
     if (actions.contains("reset")) {
         count = 0
     }
+
+    if (count === 0) {
+        value.style.color = "black";
+    }
+
     value.textContent = count;
 })
+
+
